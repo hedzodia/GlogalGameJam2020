@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B282A3CB-AE7A-4099-B335-3AA522B30D96}" SchemaVersion="94">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{B282A3CB-AE7A-4099-B335-3AA522B30D96}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Soundbank" ID="{DC2E5FA6-315D-421C-915B-C8AF2C1106DE}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Blood_Splash_RND" ID="{4C127B41-224A-4056-AA74-5C725CD4E4B7}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Flashback" ID="{899F01F1-C1AB-405E-BBE6-345334E0117B}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Object_RightPlace_SEQ" ID="{1AD0A1F1-BABF-406D-BDC4-5B6449EFE118}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_SFX_Event_PoliceOpenTheDoor" ID="{F21570B2-3DF4-40D8-A646-A5DD0AA467C3}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Pause_Music_InGame" ID="{33E128E5-F7CF-40E0-BE97-3AC46EB0ED9E}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Essorage_RND" ID="{4C8FCB6A-4007-421B-A44E-D3F346769390}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Music_InGame" ID="{74693486-DA1C-426D-9A36-BCEC66390BFF}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Vibration_BLEND" ID="{C650337D-D8CD-4590-BA01-2B6EA29688F2}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_SFX_Event_CrimeSequence" ID="{02CF6224-099A-45F2-98CA-C255E4812530}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_SFX_Ambiences_CityTrafficExterior" ID="{9B5498F8-1B6F-4621-9AF1-6D7091DFEEDC}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Drop_Objet_SWITCH" ID="{7AACDE5D-645F-46AC-B2D5-5DF3085AB818}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_UI_Over_RND" ID="{B77B3C99-04D0-46AF-955E-BCB672858983}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Vibration_BLEND" ID="{45247A95-4B49-4771-9A06-9DB04F597DA4}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_SFX_Ambiences_InteriorHouse" ID="{E8113DA2-6975-47C5-B85D-70176115ED0D}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Music_Menu" ID="{24E3A4B6-D32C-4827-A653-23C3852CFD7B}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Footsteps_SWITCH" ID="{6A3808EE-AFAF-4828-8043-0D887052BBF8}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_SFX_Event_TimerStart" ID="{37B201EF-3280-48A1-8630-0E7DCA449FD2}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_SFX_UI_Click" ID="{FE4D180B-3CF0-49B4-B45F-B9E646301687}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Flashback" ID="{31D54E29-C70F-4A2B-9BFD-896A3B607F41}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_SFX_Event_DoorKnoking" ID="{AD837377-3341-4B2B-BF82-352956D37D3F}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_HideBody" ID="{D5579409-C50B-4C2E-AD4A-D6EA239D392C}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_SFX_Event_DoorBreakingEnd" ID="{41D1EFB6-702C-4E6F-8238-A48976369CD9}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Breath_State_BLEND" ID="{FCA48CA3-E30E-4E83-90E2-105BC4880238}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_GrabBody_RND" ID="{BB30AA16-B5DE-4EE2-8D65-55B89CF9554A}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_SFX_Event_PoliceStreetArriving" ID="{5B5CB818-D319-4F0C-94AB-D03275F05168}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Resume_Music_InGame" ID="{08208E94-8AE0-4F3F-8D61-3D11FC210BB2}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Grab_Object_SWITCH" ID="{D595DE5A-EA2E-4FFB-BF64-543C61B8B07E}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

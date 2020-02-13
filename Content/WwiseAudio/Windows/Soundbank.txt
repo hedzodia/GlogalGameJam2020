@@ -1,0 +1,139 @@
+Event	ID	Name			Wwise Object Path	Notes
+	21327379	Pause_Music_InGame			\Default Work Unit\Music\Pause_Music_InGame	
+	59643605	Play_GrabBody_RND			\Default Work Unit\Objects\Play_GrabBody_RND	
+	532981842	Play_SFX_Ambiences_CityTrafficExterior			\Default Work Unit\Ambiences\Play_SFX_Ambiences_CityTrafficExterior	
+	564298475	Stop_Flashback			\Default Work Unit\Ability\Stop_Flashback	
+	565574810	Stop_Vibration_BLEND			\Default Work Unit\Objects\Stop_Vibration_BLEND	
+	721723355	Play_Drop_Objet_SWITCH			\Default Work Unit\Objects\Play_Drop_Objet_SWITCH	
+	902373862	Play_Essorage_RND			\Default Work Unit\Sponge\Play_Essorage_RND	
+	921781644	Play_SFX_Event_TimerStart			\Default Work Unit\Events\Play_SFX_Event_TimerStart	
+	924952578	Play_SFX_Event_CrimeSequence			\Default Work Unit\Events\Play_SFX_Event_CrimeSequence	
+	962944353	Play_Music_InGame			\Default Work Unit\Music\Play_Music_InGame	
+	1026313801	Play_Blood_Splash_RND			\Default Work Unit\Other\Play_Blood_Splash_RND	
+	1059710860	Resume_Music_InGame			\Default Work Unit\Music\Resume_Music_InGame	
+	1119481481	Play_Grab_Object_SWITCH			\Default Work Unit\Objects\Play_Grab_Object_SWITCH	
+	1122701954	Play_SFX_Event_PoliceStreetArriving			\Default Work Unit\Events\Play_SFX_Event_PoliceStreetArriving	
+	1288141341	Play_SFX_Event_DoorBreakingEnd			\Default Work Unit\Events\Play_SFX_Event_DoorBreakingEnd	
+	1629427141	Play_Flashback			\Default Work Unit\Ability\Play_Flashback	
+	1666120846	Play_SFX_SpongeCleaning_Loop			\Default Work Unit\Sponge\Play_SFX_SpongeCleaning_Loop	
+	1699343283	Play_Music_Menu			\Default Work Unit\Music\Play_Music_Menu	
+	1887831868	Play_SFX_Ambiences_InteriorHouse			\Default Work Unit\Ambiences\Play_SFX_Ambiences_InteriorHouse	
+	1904964212	Play_UI_Over_RND			\Default Work Unit\UI\Play_UI_Over_RND	
+	2206855640	Stop_SFX_SpongeCleaning_Loop			\Default Work Unit\Sponge\Stop_SFX_SpongeCleaning_Loop	
+	2335338990	Play_HideBody			\Default Work Unit\Other\Play_HideBody	
+	2593257294	Stop_Breath			\Default Work Unit\Character\Stop_Breath	
+	2838179778	Play_Footsteps_SWITCH			\Default Work Unit\Character\Play_Footsteps_SWITCH	
+	2948361678	Play_Breath_State_BLEND			\Default Work Unit\Character\Play_Breath_State_BLEND	
+	3158449573	Play_Object_RightPlace_SEQ			\Default Work Unit\Objects\Play_Object_RightPlace_SEQ	
+	3341621984	Play_Vibration_BLEND			\Default Work Unit\Objects\Play_Vibration_BLEND	
+	3504421513	Play_SFX_UI_Click			\Default Work Unit\UI\Play_SFX_UI_Click	
+	3600463556	Play_SFX_Event_PoliceOpenTheDoor			\Default Work Unit\Events\Play_SFX_Event_PoliceOpenTheDoor	
+	4183311020	Play_SFX_Event_DoorKnoking			\Default Work Unit\Events\Play_SFX_Event_DoorKnoking	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3539622648	Ground_Material			\Default Work Unit\Ground_Material	
+	4083796540	Object_Material			\Default Work Unit\Object_Material	
+
+Switch	ID	Name	Switch Group			Notes
+	1791601991	Parquet	Ground_Material			
+	2412606308	Carpet	Ground_Material			
+	1165214467	Sponge	Object_Material			
+	1845389165	Body	Object_Material			
+	2058049674	Wood	Object_Material			
+	2449969375	Glass	Object_Material			
+	2473969246	Metal	Object_Material			
+	3020931316	Porcelain	Object_Material			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1552025288	DistanceToRightPlace			\Default Work Unit\DistanceToRightPlace	
+	3920142940	Timer			\Default Work Unit\Timer	
+
+Effect plug-ins	ID	Name	Type				Notes
+	86245554	Attack_Remover	Wwise Compressor			
+	176439046	Caught_in_a_loop	Wwise Stereo Delay			
+	2513915904	Hall_Large	Wwise RoomVerb			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	21997482	SFX_Grab_ObjectWood	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Grab_ObjectWood_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Grab_Object_SWITCH\SFX_Grab_ObjectWood		44548
+	28932327	Music_InGame	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\Music_InGame_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Music_InGame		32193064
+	31333478	SFX_SpongeCleaning_01	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_SpongeCleaning_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Eponge_Cleaning_RND\SFX_SpongeCleaning_01		120898
+	73965903	SFX_SpongeCleaning_04	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_SpongeCleaning_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Eponge_Cleaning_RND\SFX_SpongeCleaning_04		159706
+	106711193	SFX_Footsteps_Parquetv2_01	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Footsteps_Parquetv2_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps_SWITCH\Fttps_Parquet_RND\SFX_Footsteps_Parquetv2_01		68924
+	109690392	SFX_Foleysteps_01	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Foleysteps_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Foleysteps_RND\SFX_Foleysteps_01		62024
+	126471085	SFX_UI_Click	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_UI_Click_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\SFX_UI_Click		27940
+	134703576	SFX_Objects_DropGlass	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Objects_DropGlass_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Drop_Objet_SWITCH\SFX_Objects_DropGlass		20044
+	199935509	SFX_FlashbackHolding	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_FlashbackHolding_v2_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ability\SFX_FlashbackHolding		3075124
+	201467078	Music_Menu	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\Music_Menu_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Music_Menu		9501860
+	234696519	SFX_Footsteps_Parquet_06	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Footsteps_Parquet_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps_SWITCH\Fttps_Carpet_RND\SFX_Footsteps_Parquet_06		52734
+	247126211	SFX_UI_Over_01	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_UI_Over_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Over_RND\SFX_UI_Over_01		66792
+	256432465	SFX_FlashbackOff	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_FlashbackOff_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ability\SFX_FlashbackOff		222800
+	258984453	SFX_Craquement_03	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Craquement_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\House\Craquements_Steps_RND\SFX_Craquement_03		86862
+	277967431	SFX_FlashbackOn	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_FlashbackOn_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ability\SFX_FlashbackOn		356720
+	294064250	SFX_Grab_ObjectMetal	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Grab_ObjectMetal_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Grab_Object_SWITCH\SFX_Grab_ObjectMetal		56800
+	328765238	SFX_Grab_ObjectPorcelain	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Grab_ObjectPorcelain_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Grab_Object_SWITCH\SFX_Grab_ObjectPorcelain		44548
+	337296142	SFX_Vibration_HighSynth_Loop	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Vibration_HighSynth_Loop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Vibration_BLEND\SFX_Vibration_HighSynth_Loop		577352
+	342164091	SFX_Footsteps_Parquet_01	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Footsteps_Parquet_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps_SWITCH\Fttps_Carpet_RND\SFX_Footsteps_Parquet_01		54666
+	342710586	SFX_SpongeCleaning_02	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_SpongeCleaning_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Eponge_Cleaning_RND\SFX_SpongeCleaning_02		79444
+	351765091	SFX_ObjectRightPlace_00	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_ObjectRightPlace_00_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Object_RightPlace_SEQ\SFX_ObjectRightPlace_00		487300
+	389802112	SFX_Footsteps_Parquetv2_02	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Footsteps_Parquetv2_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps_SWITCH\Fttps_Parquet_RND\SFX_Footsteps_Parquetv2_02		68380
+	390179585	SFX_Footsteps_Parquet_03	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Footsteps_Parquet_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps_SWITCH\Fttps_Carpet_RND\SFX_Footsteps_Parquet_03		52040
+	430470032	SFX_Objects_DropMetal	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Objects_DropMetal_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Drop_Objet_SWITCH\SFX_Objects_DropMetal		6806
+	435452180	SFX_Grab_Sponge	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Grab_Sponge_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Grab_Object_SWITCH\SFX_Grab_Sponge		33268
+	449558315	SFX_Footsteps_Parquet_07	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Footsteps_Parquet_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps_SWITCH\Fttps_Carpet_RND\SFX_Footsteps_Parquet_07		54168
+	457456605	SFX_SpongeCleaning_05	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_SpongeCleaning_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Eponge_Cleaning_RND\SFX_SpongeCleaning_05		98808
+	474446816	SFX_Ambiences_InteriorHouse	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Ambiences_InteriorHouse_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\SFX_Ambiences_InteriorHouse		7119516
+	523509349	SFX_Blood_Splash_00	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Blood_Splash_00_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Other\Blood_Splash_RND\SFX_Blood_Splash_00		192996
+	541400248	SFX_ObjectRightPlace_02	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_ObjectRightPlace_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Object_RightPlace_SEQ\SFX_ObjectRightPlace_02		487300
+	550493492	SFX_Event_DoorBreakingEnd	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Event_DoorBreakingEnd_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Events\SFX_Event_DoorBreakingEnd		545584
+	555436957	SFX_Event_CrimeSequence	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Event_CrimeSequence_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Events\SFX_Event_CrimeSequence		762200
+	555879596	SFX_Sponge_Essorage_01	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Sponge_Essorage_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Essorage_RND\SFX_Sponge_Essorage_01		417240
+	560303114	SFX_Footsteps_Parquetv2_06	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Footsteps_Parquetv2_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps_SWITCH\Fttps_Parquet_RND\SFX_Footsteps_Parquetv2_06		68400
+	566684534	SFX_HeartBeat-Loop	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_HeartBeat-Loop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Breath_State_BLEND\SFX_HeartBeat-Loop		485668
+	575719255	SFX_Blood_Splash_01	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Blood_Splash_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Other\Blood_Splash_RND\SFX_Blood_Splash_01		156342
+	579030665	SFX_Objects_DropPorcelain	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Objects_DropPorcelain_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Drop_Objet_SWITCH\SFX_Objects_DropPorcelain		10186
+	581383483	SFX_Event_PoliceStreetArriving	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Event_PoliceStreetArriving_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Events\SFX_Event_PoliceStreetArriving		4892208
+	598704831	SFX_Foleysteps_02	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Foleysteps_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Foleysteps_RND\SFX_Foleysteps_02		76980
+	602143014	SFX_UI_Over_02	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_UI_Over_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Over_RND\SFX_UI_Over_02		77160
+	610835259	SFX_Foleysteps_05	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Foleysteps_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Foleysteps_RND\SFX_Foleysteps_05		76960
+	616015970	SFX_SpongeCleaning_03	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_SpongeCleaning_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Eponge_Cleaning_RND\SFX_SpongeCleaning_03		168526
+	626732936	SFX_Footsteps_Parquet_02	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Footsteps_Parquet_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps_SWITCH\Fttps_Carpet_RND\SFX_Footsteps_Parquet_02		56588
+	648522501	SFX_Event_DoorKnoking	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Event_DoorKnoking_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Events\SFX_Event_DoorKnoking		230554
+	648561820	SFX_Ambiences_CityTrafficExterior	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Ambiences_CityTrafficExterior_8CA68BFB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\SFX_Ambiences_CityTrafficExterior		13897260
+	655449155	SFX_Blood_Splash_02	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Blood_Splash_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Other\Blood_Splash_RND\SFX_Blood_Splash_02		123788
+	660991772	SFX_Breath_MediumLoop	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Breath_MediumLoop_4B5265E9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Breath_State_BLEND\SFX_Breath_MediumLoop		2745278
+	682514153	SFX_Grab_ObjectGlass	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Grab_ObjectGlass_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Grab_Object_SWITCH\SFX_Grab_ObjectGlass		44548
+	687360987	SFX_Footsteps_Parquet_04	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Footsteps_Parquet_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps_SWITCH\Fttps_Carpet_RND\SFX_Footsteps_Parquet_04		52086
+	689160313	SFX_SpongeCleaning_00	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_SpongeCleaning_00_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Eponge_Cleaning_RND\SFX_SpongeCleaning_00		166868
+	712400125	SFX_Breath_FastLoop	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Breath_FastLoop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Breath_State_BLEND\SFX_Breath_FastLoop		2675328
+	719608110	SFX_Craquement_01	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Craquement_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\House\Craquements_Steps_RND\SFX_Craquement_01		32022
+	725763596	SFX_Footsteps_Parquetv2_04	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Footsteps_Parquetv2_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps_SWITCH\Fttps_Parquet_RND\SFX_Footsteps_Parquetv2_04		71604
+	732894517	SFX_Vibration_Physic_Loop	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Vibration_Physic_Loop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Vibration_BLEND\SFX_Vibration_Physic_Loop		1537456
+	733975613	SFX_Vibration_MediumSynth_Loop	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Vibration_MediumSynth_Loop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Vibration_BLEND\SFX_Vibration_MediumSynth_Loop		1725588
+	736733107	SFX_Craquement_00	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Craquement_00_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\House\Craquements_Steps_RND\SFX_Craquement_00		36746
+	745743475	SFX_Sponge_Essorage_00	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Sponge_Essorage_00_C9B497CA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Essorage_RND\SFX_Sponge_Essorage_00		382304
+	762426811	SFX_Craquement_02	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Craquement_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\House\Craquements_Steps_RND\SFX_Craquement_02		59558
+	788187437	SFX_Foleysteps_04	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Foleysteps_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Foleysteps_RND\SFX_Foleysteps_04		82776
+	788605314	SFX_Blood_Splash_03	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Blood_Splash_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Other\Blood_Splash_RND\SFX_Blood_Splash_03		137330
+	799397062	SFX_Foleysteps_03	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Foleysteps_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Foleysteps_RND\SFX_Foleysteps_03		85352
+	799804015	SFX_Footsteps_Parquet_05	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Footsteps_Parquet_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps_SWITCH\Fttps_Carpet_RND\SFX_Footsteps_Parquet_05		50824
+	803443241	SFX_Footsteps_Parquetv2_03	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Footsteps_Parquetv2_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps_SWITCH\Fttps_Parquet_RND\SFX_Footsteps_Parquetv2_03		65916
+	846923475	SFX_ObjectRightPlace_03	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_ObjectRightPlace_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Object_RightPlace_SEQ\SFX_ObjectRightPlace_03		487300
+	866984795	SFX_Footsteps_Parquetv2_05	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Footsteps_Parquetv2_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps_SWITCH\Fttps_Parquet_RND\SFX_Footsteps_Parquetv2_05		64912
+	874029082	SFX_Foleysteps_00	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Foleysteps_00_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Foleysteps_RND\SFX_Foleysteps_00		64160
+	884225059	SFX_GrabBody_02	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_GrabBody_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\GrabBody_RND\SFX_GrabBody_02		116010
+	894718240	SFX_GrabBody_00	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_GrabBody_00_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\GrabBody_RND\SFX_GrabBody_00		119416
+	895585298	SFX_Event_PoliceOpenTheDoor	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Event_PoliceOpenTheDoor_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Events\SFX_Event_PoliceOpenTheDoor		909378
+	897574348	SFX_Drop_Sponge	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Drop_Sponge_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Drop_Objet_SWITCH\SFX_Drop_Sponge		37660
+	933250041	SFX_Footsteps_Parquetv2_07	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Footsteps_Parquetv2_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps_SWITCH\Fttps_Parquet_RND\SFX_Footsteps_Parquetv2_07		64024
+	957073049	SFX_Footsteps_Parquet_00	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Footsteps_Parquet_00_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps_SWITCH\Fttps_Carpet_RND\SFX_Footsteps_Parquet_00		53032
+	957199717	SFX_ObjectRightPlace_04	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_ObjectRightPlace_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Object_RightPlace_SEQ\SFX_ObjectRightPlace_04		487300
+	966315934	SFX_Placard	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Placard_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Other\SFX_Placard		148804
+	968532482	SFX_GrabBody_01	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_GrabBody_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\GrabBody_RND\SFX_GrabBody_01		104270
+	971563571	SFX_Breath_SlowLoop	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Breath_SlowLoop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Breath_State_BLEND\SFX_Breath_SlowLoop		2695502
+	984809651	SFX_Footsteps_Parquetv2_00	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Footsteps_Parquetv2_00_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps_SWITCH\Fttps_Parquet_RND\SFX_Footsteps_Parquetv2_00		69704
+	989088541	SFX_Objects_DropWood	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Objects_DropWood_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Drop_Objet_SWITCH\SFX_Objects_DropWood		34570
+	989623763	SFX_Event_TimerStart	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Event_TimerStart_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Events\SFX_Event_TimerStart		749756
+	1021360107	SFX_ObjectRightPlace_01	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_ObjectRightPlace_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Object_RightPlace_SEQ\SFX_ObjectRightPlace_01		487300
+	1041572028	SFX_UI_Over_00	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_UI_Over_00_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Over_RND\SFX_UI_Over_00		65684
+	1058645652	SFX_Craquement_04	D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Craquement_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\House\Craquements_Steps_RND\SFX_Craquement_04		41714
+

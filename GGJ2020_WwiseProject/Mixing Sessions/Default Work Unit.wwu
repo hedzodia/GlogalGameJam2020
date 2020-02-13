@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DFAA1721-2E38-4663-AF70-609DEA366213}" SchemaVersion="94">
+	<MixingSessions>
+		<WorkUnit Name="Default Work Unit" ID="{DFAA1721-2E38-4663-AF70-609DEA366213}" PersistMode="Standalone">
+			<ChildrenList>
+				<MixingSession Name="Mixing Session" ID="{672FA754-B424-4FC2-8F03-8EC5ABE18793}">
+					<ObjectList>
+						<ObjectRef Name="Ability" ID="{DE90454E-2CF3-44EF-A6AF-4DDECA8CF867}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
+						<ObjectRef Name="Ambiences" ID="{AD30F415-9FF3-427A-9257-E4EB0EA5D084}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
+						<ObjectRef Name="Character" ID="{02679B53-B82B-4C93-BB2D-317CFB2C481C}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
+						<ObjectRef Name="Events" ID="{C1D127F0-1EC1-4EFF-8B8C-65E31B749752}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
+						<ObjectRef Name="House" ID="{2EDDFE56-DCEA-4E8E-B661-B4A84855EFB6}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
+						<ObjectRef Name="Music" ID="{6AD57D55-FE56-4064-91EB-251A635217D7}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
+						<ObjectRef Name="Objects" ID="{8FB20A09-BE83-448E-B73F-42ABB31C7D81}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
+						<ObjectRef Name="Other" ID="{B2D06DBB-A10E-4CE9-8966-896D88846813}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
+						<ObjectRef Name="UI" ID="{83BBD075-3DB3-472C-B9E7-C9349209B1F5}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
+					</ObjectList>
+				</MixingSession>
+			</ChildrenList>
+		</WorkUnit>
+	</MixingSessions>
+</WwiseDocument>

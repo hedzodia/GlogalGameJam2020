@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\unrealDocs\GitHub\GGJ2020\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\unrealDocs\GitHub\GGJ2020\GGJ2020_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1661994096" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Soundbank</ObjectPath>
+			<ShortName>Soundbank</ShortName>
+			<Path>Soundbank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="21327379" Name="Pause_Music_InGame" ObjectPath="\Events\Default Work Unit\Music\Pause_Music_InGame"/>
+				<Event Id="1026313801" Name="Play_Blood_Splash_RND" ObjectPath="\Events\Default Work Unit\Other\Play_Blood_Splash_RND"/>
+				<Event Id="2948361678" Name="Play_Breath_State_BLEND" ObjectPath="\Events\Default Work Unit\Character\Play_Breath_State_BLEND"/>
+				<Event Id="721723355" Name="Play_Drop_Objet_SWITCH" ObjectPath="\Events\Default Work Unit\Objects\Play_Drop_Objet_SWITCH"/>
+				<Event Id="902373862" Name="Play_Essorage_RND" ObjectPath="\Events\Default Work Unit\Sponge\Play_Essorage_RND"/>
+				<Event Id="1629427141" Name="Play_Flashback" ObjectPath="\Events\Default Work Unit\Ability\Play_Flashback"/>
+				<Event Id="2838179778" Name="Play_Footsteps_SWITCH" ObjectPath="\Events\Default Work Unit\Character\Play_Footsteps_SWITCH"/>
+				<Event Id="1119481481" Name="Play_Grab_Object_SWITCH" ObjectPath="\Events\Default Work Unit\Objects\Play_Grab_Object_SWITCH"/>
+				<Event Id="59643605" Name="Play_GrabBody_RND" ObjectPath="\Events\Default Work Unit\Objects\Play_GrabBody_RND"/>
+				<Event Id="2335338990" Name="Play_HideBody" ObjectPath="\Events\Default Work Unit\Other\Play_HideBody"/>
+				<Event Id="962944353" Name="Play_Music_InGame" ObjectPath="\Events\Default Work Unit\Music\Play_Music_InGame"/>
+				<Event Id="1699343283" Name="Play_Music_Menu" ObjectPath="\Events\Default Work Unit\Music\Play_Music_Menu"/>
+				<Event Id="3158449573" Name="Play_Object_RightPlace_SEQ" ObjectPath="\Events\Default Work Unit\Objects\Play_Object_RightPlace_SEQ"/>
+				<Event Id="532981842" Name="Play_SFX_Ambiences_CityTrafficExterior" ObjectPath="\Events\Default Work Unit\Ambiences\Play_SFX_Ambiences_CityTrafficExterior"/>
+				<Event Id="1887831868" Name="Play_SFX_Ambiences_InteriorHouse" ObjectPath="\Events\Default Work Unit\Ambiences\Play_SFX_Ambiences_InteriorHouse"/>
+				<Event Id="924952578" Name="Play_SFX_Event_CrimeSequence" ObjectPath="\Events\Default Work Unit\Events\Play_SFX_Event_CrimeSequence"/>
+				<Event Id="1288141341" Name="Play_SFX_Event_DoorBreakingEnd" ObjectPath="\Events\Default Work Unit\Events\Play_SFX_Event_DoorBreakingEnd"/>
+				<Event Id="4183311020" Name="Play_SFX_Event_DoorKnoking" ObjectPath="\Events\Default Work Unit\Events\Play_SFX_Event_DoorKnoking"/>
+				<Event Id="3600463556" Name="Play_SFX_Event_PoliceOpenTheDoor" ObjectPath="\Events\Default Work Unit\Events\Play_SFX_Event_PoliceOpenTheDoor"/>
+				<Event Id="1122701954" Name="Play_SFX_Event_PoliceStreetArriving" ObjectPath="\Events\Default Work Unit\Events\Play_SFX_Event_PoliceStreetArriving"/>
+				<Event Id="921781644" Name="Play_SFX_Event_TimerStart" ObjectPath="\Events\Default Work Unit\Events\Play_SFX_Event_TimerStart"/>
+				<Event Id="1666120846" Name="Play_SFX_SpongeCleaning_Loop" ObjectPath="\Events\Default Work Unit\Sponge\Play_SFX_SpongeCleaning_Loop"/>
+				<Event Id="3504421513" Name="Play_SFX_UI_Click" ObjectPath="\Events\Default Work Unit\UI\Play_SFX_UI_Click"/>
+				<Event Id="1904964212" Name="Play_UI_Over_RND" ObjectPath="\Events\Default Work Unit\UI\Play_UI_Over_RND"/>
+				<Event Id="3341621984" Name="Play_Vibration_BLEND" ObjectPath="\Events\Default Work Unit\Objects\Play_Vibration_BLEND"/>
+				<Event Id="1059710860" Name="Resume_Music_InGame" ObjectPath="\Events\Default Work Unit\Music\Resume_Music_InGame"/>
+				<Event Id="2593257294" Name="Stop_Breath" ObjectPath="\Events\Default Work Unit\Character\Stop_Breath"/>
+				<Event Id="564298475" Name="Stop_Flashback" ObjectPath="\Events\Default Work Unit\Ability\Stop_Flashback"/>
+				<Event Id="2206855640" Name="Stop_SFX_SpongeCleaning_Loop" ObjectPath="\Events\Default Work Unit\Sponge\Stop_SFX_SpongeCleaning_Loop"/>
+				<Event Id="565574810" Name="Stop_Vibration_BLEND" ObjectPath="\Events\Default Work Unit\Objects\Stop_Vibration_BLEND"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="21997482" Language="SFX">
+					<ShortName>SFX_Grab_ObjectWood.wav</ShortName>
+					<Path>SFX\SFX_Grab_ObjectWood_10C4C929.wem</Path>
+				</File>
+				<File Id="28932327" Language="SFX">
+					<ShortName>Music_InGame.wav</ShortName>
+					<Path>SFX\Music_InGame_10C4C929.wem</Path>
+				</File>
+				<File Id="31333478" Language="SFX">
+					<ShortName>SFX_SpongeCleaning_01.wav</ShortName>
+					<Path>SFX\SFX_SpongeCleaning_01_10C4C929.wem</Path>
+				</File>
+				<File Id="73965903" Language="SFX">
+					<ShortName>SFX_SpongeCleaning_04.wav</ShortName>
+					<Path>SFX\SFX_SpongeCleaning_04_10C4C929.wem</Path>
+				</File>
+				<File Id="106711193" Language="SFX">
+					<ShortName>SFX_Footsteps_Parquetv2_01.wav</ShortName>
+					<Path>SFX\SFX_Footsteps_Parquetv2_01_10C4C929.wem</Path>
+				</File>
+				<File Id="109690392" Language="SFX">
+					<ShortName>SFX_Foleysteps_01.wav</ShortName>
+					<Path>SFX\SFX_Foleysteps_01_10C4C929.wem</Path>
+				</File>
+				<File Id="126471085" Language="SFX">
+					<ShortName>SFX_UI_Click.wav</ShortName>
+					<Path>SFX\SFX_UI_Click_10C4C929.wem</Path>
+				</File>
+				<File Id="134703576" Language="SFX">
+					<ShortName>SFX_Objects_DropGlass.wav</ShortName>
+					<Path>SFX\SFX_Objects_DropGlass_10C4C929.wem</Path>
+				</File>
+				<File Id="199935509" Language="SFX">
+					<ShortName>SFX_FlashbackHolding_v2.wav</ShortName>
+					<Path>SFX\SFX_FlashbackHolding_v2_D79FB2B7.wem</Path>
+				</File>
+				<File Id="201467078" Language="SFX">
+					<ShortName>Music_Menu.wav</ShortName>
+					<Path>SFX\Music_Menu_D79FB2B7.wem</Path>
+				</File>
+				<File Id="234696519" Language="SFX">
+					<ShortName>SFX_Footsteps_Parquet_06.wav</ShortName>
+					<Path>SFX\SFX_Footsteps_Parquet_06_10C4C929.wem</Path>
+				</File>
+				<File Id="247126211" Language="SFX">
+					<ShortName>SFX_UI_Over_01.wav</ShortName>
+					<Path>SFX\SFX_UI_Over_01_10C4C929.wem</Path>
+				</File>
+				<File Id="256432465" Language="SFX">
+					<ShortName>SFX_FlashbackOff.wav</ShortName>
+					<Path>SFX\SFX_FlashbackOff_10C4C929.wem</Path>
+				</File>
+				<File Id="258984453" Language="SFX">
+					<ShortName>SFX_Craquement_03.wav</ShortName>
+					<Path>SFX\SFX_Craquement_03_10C4C929.wem</Path>
+				</File>
+				<File Id="277967431" Language="SFX">
+					<ShortName>SFX_FlashbackOn.wav</ShortName>
+					<Path>SFX\SFX_FlashbackOn_10C4C929.wem</Path>
+				</File>
+				<File Id="294064250" Language="SFX">
+					<ShortName>SFX_Grab_ObjectMetal.wav</ShortName>
+					<Path>SFX\SFX_Grab_ObjectMetal_10C4C929.wem</Path>
+				</File>
+				<File Id="328765238" Language="SFX">
+					<ShortName>SFX_Grab_ObjectPorcelain.wav</ShortName>
+					<Path>SFX\SFX_Grab_ObjectPorcelain_10C4C929.wem</Path>
+				</File>
+				<File Id="337296142" Language="SFX">
+					<ShortName>SFX_Vibration_HighSynth_Loop.wav</ShortName>
+					<Path>SFX\SFX_Vibration_HighSynth_Loop_D79FB2B7.wem</Path>
+				</File>
+				<File Id="342164091" Language="SFX">
+					<ShortName>SFX_Footsteps_Parquet_01.wav</ShortName>
+					<Path>SFX\SFX_Footsteps_Parquet_01_10C4C929.wem</Path>
+				</File>
+				<File Id="342710586" Language="SFX">
+					<ShortName>SFX_SpongeCleaning_02.wav</ShortName>
+					<Path>SFX\SFX_SpongeCleaning_02_10C4C929.wem</Path>
+				</File>
+				<File Id="351765091" Language="SFX">
+					<ShortName>SFX_ObjectRightPlace_00.wav</ShortName>
+					<Path>SFX\SFX_ObjectRightPlace_00_10C4C929.wem</Path>
+				</File>
+				<File Id="389802112" Language="SFX">
+					<ShortName>SFX_Footsteps_Parquetv2_02.wav</ShortName>
+					<Path>SFX\SFX_Footsteps_Parquetv2_02_10C4C929.wem</Path>
+				</File>
+				<File Id="390179585" Language="SFX">
+					<ShortName>SFX_Footsteps_Parquet_03.wav</ShortName>
+					<Path>SFX\SFX_Footsteps_Parquet_03_10C4C929.wem</Path>
+				</File>
+				<File Id="430470032" Language="SFX">
+					<ShortName>SFX_Objects_DropMetal.wav</ShortName>
+					<Path>SFX\SFX_Objects_DropMetal_10C4C929.wem</Path>
+				</File>
+				<File Id="435452180" Language="SFX">
+					<ShortName>SFX_Grab_Sponge.wav</ShortName>
+					<Path>SFX\SFX_Grab_Sponge_10C4C929.wem</Path>
+				</File>
+				<File Id="449558315" Language="SFX">
+					<ShortName>SFX_Footsteps_Parquet_07.wav</ShortName>
+					<Path>SFX\SFX_Footsteps_Parquet_07_10C4C929.wem</Path>
+				</File>
+				<File Id="457456605" Language="SFX">
+					<ShortName>SFX_SpongeCleaning_05.wav</ShortName>
+					<Path>SFX\SFX_SpongeCleaning_05_10C4C929.wem</Path>
+				</File>
+				<File Id="474446816" Language="SFX">
+					<ShortName>SFX_Ambiences_InteriorHouse.wav</ShortName>
+					<Path>SFX\SFX_Ambiences_InteriorHouse_D79FB2B7.wem</Path>
+				</File>
+				<File Id="523509349" Language="SFX">
+					<ShortName>SFX_Blood_Splash_00.wav</ShortName>
+					<Path>SFX\SFX_Blood_Splash_00_10C4C929.wem</Path>
+				</File>
+				<File Id="541400248" Language="SFX">
+					<ShortName>SFX_ObjectRightPlace_02.wav</ShortName>
+					<Path>SFX\SFX_ObjectRightPlace_02_10C4C929.wem</Path>
+				</File>
+				<File Id="550493492" Language="SFX">
+					<ShortName>SFX_Event_DoorBreakingEnd.wav</ShortName>
+					<Path>SFX\SFX_Event_DoorBreakingEnd_10C4C929.wem</Path>
+				</File>
+				<File Id="555436957" Language="SFX">
+					<ShortName>SFX_Event_CrimeSequence.wav</ShortName>
+					<Path>SFX\SFX_Event_CrimeSequence_10C4C929.wem</Path>
+				</File>
+				<File Id="555879596" Language="SFX">
+					<ShortName>SFX_Sponge_Essorage_01.wav</ShortName>
+					<Path>SFX\SFX_Sponge_Essorage_01_10C4C929.wem</Path>
+				</File>
+				<File Id="560303114" Language="SFX">
+					<ShortName>SFX_Footsteps_Parquetv2_06.wav</ShortName>
+					<Path>SFX\SFX_Footsteps_Parquetv2_06_10C4C929.wem</Path>
+				</File>
+				<File Id="566684534" Language="SFX">
+					<ShortName>SFX_HeartBeat-Loop.wav</ShortName>
+					<Path>SFX\SFX_HeartBeat-Loop_D79FB2B7.wem</Path>
+				</File>
+				<File Id="575719255" Language="SFX">
+					<ShortName>SFX_Blood_Splash_01.wav</ShortName>
+					<Path>SFX\SFX_Blood_Splash_01_10C4C929.wem</Path>
+				</File>
+				<File Id="579030665" Language="SFX">
+					<ShortName>SFX_Objects_DropPorcelain.wav</ShortName>
+					<Path>SFX\SFX_Objects_DropPorcelain_10C4C929.wem</Path>
+				</File>
+				<File Id="581383483" Language="SFX">
+					<ShortName>SFX_Event_PoliceStreetArriving.wav</ShortName>
+					<Path>SFX\SFX_Event_PoliceStreetArriving_10C4C929.wem</Path>
+				</File>
+				<File Id="598704831" Language="SFX">
+					<ShortName>SFX_Foleysteps_02.wav</ShortName>
+					<Path>SFX\SFX_Foleysteps_02_10C4C929.wem</Path>
+				</File>
+				<File Id="602143014" Language="SFX">
+					<ShortName>SFX_UI_Over_02.wav</ShortName>
+					<Path>SFX\SFX_UI_Over_02_10C4C929.wem</Path>
+				</File>
+				<File Id="610835259" Language="SFX">
+					<ShortName>SFX_Foleysteps_05.wav</ShortName>
+					<Path>SFX\SFX_Foleysteps_05_10C4C929.wem</Path>
+				</File>
+				<File Id="616015970" Language="SFX">
+					<ShortName>SFX_SpongeCleaning_03.wav</ShortName>
+					<Path>SFX\SFX_SpongeCleaning_03_10C4C929.wem</Path>
+				</File>
+				<File Id="626732936" Language="SFX">
+					<ShortName>SFX_Footsteps_Parquet_02.wav</ShortName>
+					<Path>SFX\SFX_Footsteps_Parquet_02_10C4C929.wem</Path>
+				</File>
+				<File Id="648522501" Language="SFX">
+					<ShortName>SFX_Event_DoorKnoking.wav</ShortName>
+					<Path>SFX\SFX_Event_DoorKnoking_10C4C929.wem</Path>
+				</File>
+				<File Id="648561820" Language="SFX">
+					<ShortName>SFX_Ambiences_CityTrafficExterior.wav</ShortName>
+					<Path>SFX\SFX_Ambiences_CityTrafficExterior_8CA68BFB.wem</Path>
+				</File>
+				<File Id="655449155" Language="SFX">
+					<ShortName>SFX_Blood_Splash_02.wav</ShortName>
+					<Path>SFX\SFX_Blood_Splash_02_10C4C929.wem</Path>
+				</File>
+				<File Id="660991772" Language="SFX">
+					<ShortName>SFX_Breath_MediumLoop.wav</ShortName>
+					<Path>SFX\SFX_Breath_MediumLoop_4B5265E9.wem</Path>
+				</File>
+				<File Id="682514153" Language="SFX">
+					<ShortName>SFX_Grab_ObjectGlass.wav</ShortName>
+					<Path>SFX\SFX_Grab_ObjectGlass_10C4C929.wem</Path>
+				</File>
+				<File Id="687360987" Language="SFX">
+					<ShortName>SFX_Footsteps_Parquet_04.wav</ShortName>
+					<Path>SFX\SFX_Footsteps_Parquet_04_10C4C929.wem</Path>
+				</File>
+				<File Id="689160313" Language="SFX">
+					<ShortName>SFX_SpongeCleaning_00.wav</ShortName>
+					<Path>SFX\SFX_SpongeCleaning_00_10C4C929.wem</Path>
+				</File>
+				<File Id="712400125" Language="SFX">
+					<ShortName>SFX_Breath_FastLoop.wav</ShortName>
+					<Path>SFX\SFX_Breath_FastLoop_D79FB2B7.wem</Path>
+				</File>
+				<File Id="719608110" Language="SFX">
+					<ShortName>SFX_Craquement_01.wav</ShortName>
+					<Path>SFX\SFX_Craquement_01_10C4C929.wem</Path>
+				</File>
+				<File Id="725763596" Language="SFX">
+					<ShortName>SFX_Footsteps_Parquetv2_04.wav</ShortName>
+					<Path>SFX\SFX_Footsteps_Parquetv2_04_10C4C929.wem</Path>
+				</File>
+				<File Id="732894517" Language="SFX">
+					<ShortName>SFX_Vibration_Physic_Loop.wav</ShortName>
+					<Path>SFX\SFX_Vibration_Physic_Loop_D79FB2B7.wem</Path>
+				</File>
+				<File Id="733975613" Language="SFX">
+					<ShortName>SFX_Vibration_MediumSynth_Loop.wav</ShortName>
+					<Path>SFX\SFX_Vibration_MediumSynth_Loop_D79FB2B7.wem</Path>
+				</File>
+				<File Id="736733107" Language="SFX">
+					<ShortName>SFX_Craquement_00.wav</ShortName>
+					<Path>SFX\SFX_Craquement_00_10C4C929.wem</Path>
+				</File>
+				<File Id="745743475" Language="SFX">
+					<ShortName>SFX_Sponge_Essorage_00.wav</ShortName>
+					<Path>SFX\SFX_Sponge_Essorage_00_C9B497CA.wem</Path>
+				</File>
+				<File Id="762426811" Language="SFX">
+					<ShortName>SFX_Craquement_02.wav</ShortName>
+					<Path>SFX\SFX_Craquement_02_10C4C929.wem</Path>
+				</File>
+				<File Id="788187437" Language="SFX">
+					<ShortName>SFX_Foleysteps_04.wav</ShortName>
+					<Path>SFX\SFX_Foleysteps_04_10C4C929.wem</Path>
+				</File>
+				<File Id="788605314" Language="SFX">
+					<ShortName>SFX_Blood_Splash_03.wav</ShortName>
+					<Path>SFX\SFX_Blood_Splash_03_10C4C929.wem</Path>
+				</File>
+				<File Id="799397062" Language="SFX">
+					<ShortName>SFX_Foleysteps_03.wav</ShortName>
+					<Path>SFX\SFX_Foleysteps_03_10C4C929.wem</Path>
+				</File>
+				<File Id="799804015" Language="SFX">
+					<ShortName>SFX_Footsteps_Parquet_05.wav</ShortName>
+					<Path>SFX\SFX_Footsteps_Parquet_05_10C4C929.wem</Path>
+				</File>
+				<File Id="803443241" Language="SFX">
+					<ShortName>SFX_Footsteps_Parquetv2_03.wav</ShortName>
+					<Path>SFX\SFX_Footsteps_Parquetv2_03_10C4C929.wem</Path>
+				</File>
+				<File Id="846923475" Language="SFX">
+					<ShortName>SFX_ObjectRightPlace_03.wav</ShortName>
+					<Path>SFX\SFX_ObjectRightPlace_03_10C4C929.wem</Path>
+				</File>
+				<File Id="866984795" Language="SFX">
+					<ShortName>SFX_Footsteps_Parquetv2_05.wav</ShortName>
+					<Path>SFX\SFX_Footsteps_Parquetv2_05_10C4C929.wem</Path>
+				</File>
+				<File Id="874029082" Language="SFX">
+					<ShortName>SFX_Foleysteps_00.wav</ShortName>
+					<Path>SFX\SFX_Foleysteps_00_10C4C929.wem</Path>
+				</File>
+				<File Id="884225059" Language="SFX">
+					<ShortName>SFX_GrabBody_02.wav</ShortName>
+					<Path>SFX\SFX_GrabBody_02_10C4C929.wem</Path>
+				</File>
+				<File Id="894718240" Language="SFX">
+					<ShortName>SFX_GrabBody_00.wav</ShortName>
+					<Path>SFX\SFX_GrabBody_00_10C4C929.wem</Path>
+				</File>
+				<File Id="895585298" Language="SFX">
+					<ShortName>SFX_Event_PoliceOpenTheDoor.wav</ShortName>
+					<Path>SFX\SFX_Event_PoliceOpenTheDoor_10C4C929.wem</Path>
+				</File>
+				<File Id="897574348" Language="SFX">
+					<ShortName>SFX_Drop_Sponge.wav</ShortName>
+					<Path>SFX\SFX_Drop_Sponge_10C4C929.wem</Path>
+				</File>
+				<File Id="933250041" Language="SFX">
+					<ShortName>SFX_Footsteps_Parquetv2_07.wav</ShortName>
+					<Path>SFX\SFX_Footsteps_Parquetv2_07_10C4C929.wem</Path>
+				</File>
+				<File Id="957073049" Language="SFX">
+					<ShortName>SFX_Footsteps_Parquet_00.wav</ShortName>
+					<Path>SFX\SFX_Footsteps_Parquet_00_10C4C929.wem</Path>
+				</File>
+				<File Id="957199717" Language="SFX">
+					<ShortName>SFX_ObjectRightPlace_04.wav</ShortName>
+					<Path>SFX\SFX_ObjectRightPlace_04_10C4C929.wem</Path>
+				</File>
+				<File Id="966315934" Language="SFX">
+					<ShortName>SFX_Placard.wav</ShortName>
+					<Path>SFX\SFX_Placard_10C4C929.wem</Path>
+				</File>
+				<File Id="968532482" Language="SFX">
+					<ShortName>SFX_GrabBody_01.wav</ShortName>
+					<Path>SFX\SFX_GrabBody_01_10C4C929.wem</Path>
+				</File>
+				<File Id="971563571" Language="SFX">
+					<ShortName>SFX_Breath_SlowLoop.wav</ShortName>
+					<Path>SFX\SFX_Breath_SlowLoop_D79FB2B7.wem</Path>
+				</File>
+				<File Id="984809651" Language="SFX">
+					<ShortName>SFX_Footsteps_Parquetv2_00.wav</ShortName>
+					<Path>SFX\SFX_Footsteps_Parquetv2_00_10C4C929.wem</Path>
+				</File>
+				<File Id="989088541" Language="SFX">
+					<ShortName>SFX_Objects_DropWood.wav</ShortName>
+					<Path>SFX\SFX_Objects_DropWood_10C4C929.wem</Path>
+				</File>
+				<File Id="989623763" Language="SFX">
+					<ShortName>SFX_Event_TimerStart.wav</ShortName>
+					<Path>SFX\SFX_Event_TimerStart_10C4C929.wem</Path>
+				</File>
+				<File Id="1021360107" Language="SFX">
+					<ShortName>SFX_ObjectRightPlace_01.wav</ShortName>
+					<Path>SFX\SFX_ObjectRightPlace_01_10C4C929.wem</Path>
+				</File>
+				<File Id="1041572028" Language="SFX">
+					<ShortName>SFX_UI_Over_00.wav</ShortName>
+					<Path>SFX\SFX_UI_Over_00_10C4C929.wem</Path>
+				</File>
+				<File Id="1058645652" Language="SFX">
+					<ShortName>SFX_Craquement_04.wav</ShortName>
+					<Path>SFX\SFX_Craquement_04_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
